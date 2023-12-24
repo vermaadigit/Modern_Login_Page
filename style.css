@@ -96,12 +96,21 @@ header{
     align-items: center;
     align-content: center;
     margin-top: 12%;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .wrapper .form-box{
     width: 100%;
     padding: 40px;
+}
+
+.wrapper .form-box.login{
+    /* display: none; */
+}
+
+.wrapper .form-box.register{
+    position: absolute;
+    transform: translateX(400px);
 }
 
 .wrapper .icon-close{
